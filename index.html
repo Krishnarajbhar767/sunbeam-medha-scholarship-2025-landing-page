@@ -1,0 +1,849 @@
+
+<!--  
+  ───────────────────────────────────────────────────────────────  
+  🚀 Project Developed & Maintained by: Krishna Rajbhar  
+  🏆 Role: Full Stack Developer  
+  🏢 Company: Media FleetBlue  
+  📧 Contact: krishnarajbhar767@gmail.com  
+  🛠️ Technologies Used: HTML, CSS, JavaScript, [Other relevant technologies]  
+  📅 Year: 2025  
+  © 2025 Media FleetBlue. All Rights Reserved.  
+  ───────────────────────────────────────────────────────────────  
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Medha Scholarship Test 2025 - Sunbeam School Mughalsarai</title>
+        <link rel="stylesheet" href="styles.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        />
+    </head>
+    <body>
+        <!-- Countdown Header -->
+        <header class="countdown-header">
+            <div class="countdown-container">
+                <div class="countdown-item">
+                    <span id="days">00</span>
+                    <span class="countdown-label">Days</span>
+                </div>
+                <div class="countdown-item">
+                    <span id="hours">00</span>
+                    <span class="countdown-label">Hours</span>
+                </div>
+                <div class="countdown-item">
+                    <span id="minutes">00</span>
+                    <span class="countdown-label">Minutes</span>
+                </div>
+                <div class="countdown-item">
+                    <span id="seconds">00</span>
+                    <span class="countdown-label">Seconds</span>
+                </div>
+                <div class="countdown-text">Register for Scholarship Exam</div>
+                <div class="countdown-text headerButton" onclick="scrollToForm()">Apply Now</div>
+            </div>
+        </header>
+
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <h1>Medha Scholarship Test 2025</h1>
+                <h2>Win Scholarships Worth ₹51 Lacs!</h2>
+                <p>
+                    Your journey to success starts here—don’t miss this
+                    opportunity!
+                </p>
+                <button class="cta-button shine" onclick="scrollToForm()">
+                    Register Now
+                </button>
+                <div class="limited-seats">
+                    <i class="fas fa-exclamation-circle"></i> Limited Seats
+                    Available
+                </div>
+            </div>
+        </section>
+
+        <!-- Key Information & Benefits -->
+        <section class="info-benefits">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Scholarship Benefits</h2>
+                </div>
+                <div class="benefits-container">
+                    <div class="benefits-column">
+                        <h3>Benefits</h3>
+                        <ul>
+                            <li>
+                                <i class="fas fa-check-circle"></i> 100%, 50%,
+                                and 25% scholarships available
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle"></i> Covers
+                                tuition &amp; transport fees for deserving
+                                students
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle"></i> Opportunity
+                                to study in one of the top CBSE-affiliated
+                                schools
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="benefits-column">
+                        <h3>Who Can Apply?</h3>
+                        <ul>
+                            <li>
+                                <i class="fas fa-user-graduate"></i> Students
+                                moving to Class XI (Science, Commerce &amp;
+                                Humanities)
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div style="width: fit-content; margin: auto">
+                    <button class="cta-button shine" style="margin: auto" onclick="scrollToForm()">
+                        Book Your Slot
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Sunbeam -->
+        <section class="why-choose">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Why Choose Sunbeam Mughalsarai ?</h2>
+                </div>
+                <div class="features-timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-icon">
+                            <i class="fas fa-book"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Competitive Exam Preparation</h3>
+                            <p>
+                                We provide expert coaching for scholarship
+                                exams, Olympiads, and entrance tests, ensuring
+                                students excel in competitive environments.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Safe &amp; Secure Campus</h3>
+                            <p>
+                                Our school maintains strict security measures,
+                                including CCTV surveillance and a disciplined
+                                environment for students' safety.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-icon">
+                            <i class="fas fa-laptop"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Modern Facilities</h3>
+                            <p>
+                                With smart classrooms, fully-equipped science
+                                and computer labs, a rich library, and sports
+                                infrastructure, we offer a world-class learning
+                                experience.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-icon">
+                            <i class="fas fa-chalkboard-teacher"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Experienced Faculty</h3>
+                            <p>
+                                Our highly qualified and passionate teachers
+                                focus on nurturing each student's potential with
+                                innovative teaching methods.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Personalized Attention</h3>
+                            <p>
+                                Small class sizes and interactive teaching
+                                ensure every student receives individual
+                                guidance for academic and personal growth.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-icon">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Excellent Academics</h3>
+                            <p>
+                                A well-structured curriculum, practical learning
+                                approach, and focus on conceptual clarity make
+                                our academics stand out.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div style="width: fit-content; margin: auto">
+                    <button class="cta-button shine" style="margin: auto" onclick="scrollToForm()">
+                        Apply Now
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Scholarship Exam Details -->
+        <section class="exam-details">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Scholarship Exam Details</h2>
+                </div>
+                <div class="exam-info">
+                    <div class="exam-dates">
+                        <h3>Dates &amp; Eligibility</h3>
+                        <ul>
+                            <li>
+                                <i class="fas fa-calendar-alt"></i>
+                                <strong>For CBSE Students:</strong> Sunday, 23rd
+                                March 2025
+                            </li>
+                            <li>
+                                <i class="fas fa-calendar-alt"></i>
+                                <strong>For ICSE Students:</strong> Friday, 28th
+                                March 2025
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-clock"></i>
+                                <strong>Reporting Time:</strong> 9 AM
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-clock"></i>
+                                <strong>Duration of the exam:</strong> 2:30 hrs
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="exam-format" style="display: flex; flex-direction: column; justify-content: space-between;">
+                        <h3>Exam Format &amp; Syllabus</h3>
+                        <p>
+                            The exam will test students on their knowledge of
+                            core subjects and analytical skills.
+                        </p>
+                <div><div class="countdown-text headerButton" onclick="window.open('https://medha.sunbeammughalsarai.com/', '_blank')">Learn More <i class="fa-solid fa-link"  style="color: white; margin-left: 10px;"></i></div></div>
+
+                    </div>
+                    <div class="exam-location" style="display: flex; flex-direction: column; justify-content: space-between;">
+                        <h3>Location</h3>
+                        <p>
+                            <i class="fas fa-map-marker-alt"></i> Sunbeam School, Karwat, GT Road (near FCI Godown), Dulhipur Mughalsarai, Mughalsarai, Uttar Pradesh 232101
+                        </p>
+                        <div><div class="countdown-text headerButton" onclick="window.open('https://www.google.com/maps?q=Sunbeam+School+Mughalsarai,+Sunbeam+School,+Karwat,+GT+Road+(near+FCI+Godown),+Dulhipur+Mughalsarai,+Mughalsarai,+Uttar+Pradesh+232101&ftid=0x398e3008bb0529b1:0x6e860e6e1271237f&entry=gps&lucs=,94242538,94224825,94227247,94227248,47071704,47069508,94218641,94203019,47084304,94208458,94208447&g_ep=CAISEjI1LjA5LjEuNzMwNTIxODM1MBgAIIgnKmMsOTQyNDI1MzgsOTQyMjQ4MjUsOTQyMjcyNDcsOTQyMjcyNDgsNDcwNzE3MDQsNDcwNjk1MDgsOTQyMTg2NDEsOTQyMDMwMTksNDcwODQzMDQsOTQyMDg0NTgsOTQyMDg0NDdCAklO&g_st=com.google.maps.preview.copy', '_blank')">View on Map<i class="fa-solid fa-map-pin" style="color: white; margin-left: 10px;"></i></div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Success Stories & Toppers -->
+        <section class="success-stories">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Success Stories &amp; Toppers</h2>
+                </div>
+                <div class="toppers-carousel">
+                    <div class="carousel-container">
+                        <div class="carousel-track" id="toppersTrack">
+                            <div class="topper-card">
+                                <div class="topper-image">
+                                    <img
+                                        src="./Shasank Mourya.jpg"
+                                        alt="Shashank Maurya"
+                                    />
+                                </div>
+                                <h3>Shashank Maurya</h3>
+                                <p class="topper-score">99%</p>
+                                <p class="topper-quote">
+                                    "The scholarship helped me achieve my
+                                    dreams."
+                                </p>
+                            </div>
+                            <div class="topper-card">
+                                <div class="topper-image">
+                                    <img
+                                        src="./Pragati Sharma.jpeg"
+                                        alt="Pragati Sharma"
+                                    />
+                                </div>
+                                <h3>Pragati Sharma</h3>
+                                <p class="topper-score">99%</p>
+                                <p class="topper-quote">
+                                    "Sunbeam's guidance was instrumental in my
+                                    success."
+                                </p>
+                            </div>
+                            <div class="topper-card">
+                                <div class="topper-image">
+                                    <img
+                                        src="Khusi Agrawal.jpeg"
+                                        alt="Khushi Agarwal"
+                                    />
+                                </div>
+                                <h3>Khushi Agarwal</h3>
+                                <p class="topper-score">97.80%</p>
+                                <p class="topper-quote">
+                                    "The faculty's support made all the
+                                    difference."
+                                </p>
+                            </div>
+                            <div class="topper-card">
+                                <div class="topper-image">
+                                    <img
+                                        src="./Aditya Pandey.jpeg"
+                                        alt="Aditya Pandey"
+                                    />
+                                </div>
+                                <h3>Aditya Pandey</h3>
+                                <p class="topper-score">97.60%</p>
+                                <p class="topper-quote">
+                                    "Sunbeam prepared me for competitive exams."
+                                </p>
+                            </div>
+                            <div class="topper-card">
+                                <div class="topper-image">
+                                    <img
+                                        src="./Zoya Salim.jpeg"
+                                        alt="Zoya Salim"
+                                    />
+                                </div>
+                                <h3>Zoya Salim</h3>
+                                <p class="topper-score">97.60%</p>
+                                <p class="topper-quote">
+                                    "The scholarship opened doors for my
+                                    future."
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-controls">
+                        <button id="prevBtn" class="carousel-btn">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <button id="nextBtn" class="carousel-btn">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+                <div style="width: fit-content; margin: auto">
+                    <button class="cta-button shine" style="margin: auto" onclick="scrollToForm()">
+                        Reserve Your Seat
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stream Available Section Three Stream Cards-->
+        <section class="available-streams">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Available Streams</h2>
+                </div>
+                <div class="streams-container">
+                    <div class="stream-card">
+                        <div class="stream-icon">
+                            <i class="fas fa-calculator"></i>
+                        </div>
+                        <h3>Commerce</h3>
+                        <p>
+                            Develop business acumen and financial expertise with
+                            our comprehensive commerce stream.
+                        </p>
+                        <ul>
+                            <li>
+                                <i class="fas fa-check-circle"></i> Accountancy
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle"></i> Business
+                                Studies
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle"></i> Economics
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle"></i> Mathematics
+                                (Optional)
+                            </li>
+                        </ul>
+                        <button class="stream-btn">Learn More</button>
+                    </div>
+                    <div class="stream-card">
+                        <div class="stream-icon">
+                            <i class="fas fa-book-open"></i>
+                        </div>
+                        <h3>Humanities</h3>
+                        <p>
+                            Explore human society, culture, and expression
+                            through our diverse humanities curriculum.
+                        </p>
+                        <ul>
+                            <li><i class="fas fa-check-circle"></i> History</li>
+                            <li>
+                                <i class="fas fa-check-circle"></i> Political
+                                Science
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle"></i> Geography
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle"></i> Psychology
+                            </li>
+                        </ul>
+                        <button class="stream-btn">Learn More</button>
+                    </div>
+                    <div class="stream-card">
+                        <div class="stream-icon">
+                            <i class="fas fa-flask"></i>
+                        </div>
+                        <h3>Science</h3>
+                        <p>
+                            Build a strong foundation in scientific principles
+                            and analytical thinking.
+                        </p>
+                        <ul>
+                            <li><i class="fas fa-check-circle"></i> Physics</li>
+                            <li>
+                                <i class="fas fa-check-circle"></i> Chemistry
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle"></i>
+                                Biology/Mathematics
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle"></i> Computer
+                                Science (Optional)
+                            </li>
+                        </ul>
+                        <button class="stream-btn">Learn More</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Additional Quotes Section -->
+        <section class="education-journey">
+            <div class="container">
+                <div class="journey-steps">
+                    <div class="journey-step">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h3>
+                                Ace The Exam, Earn the Scholarship & Chase Your
+                                Dream
+                            </h3>
+                            <p>
+                                Take the first step towards academic excellence
+                                by participating in our Medha Scholarship Test.
+                                Demonstrate your potential, secure financial
+                                support, and embark on a journey to achieve your
+                                educational aspirations.
+                            </p>
+                            <div class="step-icon">
+                                <i class="fas fa-trophy"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="journey-step">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h3>Your Path to Your Stream with One Exam</h3>
+                            <p>
+                                A single examination opens doors to multiple
+                                academic pathways. Choose from Science,
+                                Commerce, or Humanities based on your interests
+                                and career goals, all supported by our
+                                comprehensive scholarship program.
+                            </p>
+                            <div class="step-icon">
+                                <i class="fas fa-road"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="journey-step">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h3>Get The Education You Deserve</h3>
+                            <p>
+                                Every student deserves quality education
+                                regardless of financial constraints. Our
+                                scholarship program ensures that talented
+                                students receive the academic opportunities they
+                                merit, fostering a brighter future for all.
+                            </p>
+                            <div class="step-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cta-container">
+                    <button class="cta-button shine" onclick="scrollToForm()">
+                        Begin Your Journey Today
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Father Testomonials -->
+        <section class="fathers-testimonials">
+            <div class="container">
+                <div class="section-title">
+                    <h2>What Parents Say</h2>
+                </div>
+                <div class="testimonials-container">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="topper-image">
+                                <img
+                                    src="./father of Shashank Kumar Maurya.png"
+                                    alt="father of Shashank Kumar Maurya"
+                                />
+                            </div>
+                            <p>
+                                "I am incredibly proud of my son, Shashank Kumar
+                                Maurya, for receiving a 100% scholarship through
+                                the prestigious Scholarship Test at Sunbeam
+                                School, Mughalsarai. This achievement is a
+                                reflection of Shashank's dedication and the
+                                unwavering support from the exceptional faculty
+                                at Sunbeam.
+                            </p>
+                            <p>
+                                Sunbeam School has been instrumental in
+                                Shashank's success, providing him with the
+                                guidance and resources to excel in his studies
+                                and become the district topper in the CBSE Class
+                                X examinations. The scholarship has lifted a
+                                significant financial burden from our family and
+                                inspired Shashank to strive for even greater
+                                heights.
+                            </p>
+                            <p>
+                                We are deeply grateful to Sunbeam School for
+                                this incredible opportunity and for believing in
+                                Shashank's potential."
+                            </p>
+                        </div>
+                        <div class="testimonial-author">
+                            <h3>Mr. Raja Ram</h3>
+                            <p>Father of Shashank Kumar Maurya</p>
+                            <p>Padao, Varanasi</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="topper-image">
+                                <img
+                                    src="./Father OF Fahad Khan.jpg"
+                                    alt="Father OF Fahad Khan"
+                                />
+                            </div>
+                            <p>
+                                "I am overwhelmed with joy and gratitude as my
+                                child has been awarded a 100% scholarship for
+                                Class XI and XII at Sunbeam School, Mughalsarai.
+                                This Scholarship has opened doors to
+                                life-changing opportunities, I am thankful to
+                                the school administration for recognizing and
+                                rewarding academic excellence.
+                            </p>
+                            <p>
+                                This scholarship not only alleviates financial
+                                burden but also boosts confidence among students
+                                to pursue their dreams. I encourage all parents
+                                of students to grab this opportunity. Thank you,
+                                Sunbeam School, for shaping the future of
+                                deserving students!"
+                            </p>
+                        </div>
+                        <div class="testimonial-author">
+                            <h3>Md. Anwar Khan</h3>
+                            <p>Father of Md. Fahad Khan</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <p>
+                                <div class="topper-image">
+                                    <img
+                                        src="./father of Habiba Emadi.png"
+                                        alt="father of Habiba Emadi"
+                                    />
+                                </div>
+                                "I am Syed Ahsanul Haq, father of Habiba Emadi,
+                                a Class 11 student who has successfully secured
+                                the Medha Scholarship at Sunbeam School
+                                Mughalsarai. I am writing to share my experience
+                                regarding the Medha Exam. The Medha Scholarship
+                                program organized by Sunbeam School Mughalsarai
+                                is a commendable initiative. It provides
+                                students with two significant benefits.
+                            </p>
+                            <p>
+                                First, it offers financial support. Secondly,
+                                and more importantly, it gives students an
+                                opportunity to challenge themselves. Even those
+                                who don't succeed gain valuable experience,
+                                while those who do achieve it feel a distinct
+                                sense of respect. This program also positively
+                                impacts the confidence levels of the students. I
+                                would like to congratulate and commend the
+                                school for this outstanding program."
+                            </p>
+                        </div>
+                        <div class="testimonial-author">
+                            <h3>Syed Ahsanul Haq</h3>
+                            <p>Father of Habiba Emadi</p>
+                            <p>Padao, Chandauli, UP</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Registration Form -->
+        <section class="registration" id="registrationForm">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Register for Medha Scholarship Test</h2>
+                </div>
+                <form id="scholarshipForm" class="scholarship-form" action="https://formsubmit.co/admission@sunbeammughalsarai.com" method="POST" onsubmit="showSubmittingMessage()">
+                      <!-- Hidden Fields -->
+        
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_subject" value="New Medha Scholership 2025 Registration Mail">
+                    <div class="form-group">
+                        <label for="fullName">Full Name</label>
+                        <input
+                            type="text"
+                            id="fullName"
+                            name="fullName"
+                            required
+                        />
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email ID</label>
+                        <input type="email" id="email" name="email" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" required  pattern="[0-9]{10}" 
+                        maxlength="10" 
+                        minlength="10" 
+                        required  />
+                    </div>
+                    <div class="form-group">
+                        <label for="board">Select Board</label>
+                        <select id="board" name="board" required>
+                            <option value="">-- Select --</option>
+                            <option value="CBSE">CBSE</option>
+                            <option value="ICSE">ICSE</option>
+                            <option value="State Board">State Board</option>
+                            <option value="Others">Others</option>
+                            
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="stream"
+                            >Class &amp; Stream Preference</label
+                        >
+                        <select id="stream" name="stream" required>
+                            <option value="">-- Select --</option>
+                            <option value="PCB">PCB</option>
+                            <option value="PCM">PCM</option>
+                            <option value="Commerce">Commerce</option>
+                            <option value="Humanities">Humanities</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="cta-button shine">
+                        Submit Registration
+                    </button>
+                    <p id="submittingMessage" style="display: none;">Submitting, please wait...</p>
+                    <script>
+                        function showSubmittingMessage() {
+                            document.getElementById("submittingMessage").style.display = "block";
+                        }
+                    </script>
+                </form>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Frequently Asked Questions</h2>
+                </div>
+                <div class="faq-container">
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>What is the exam format?</h3>
+                            <span class="faq-toggle"
+                                ><i class="fas fa-plus"></i
+                            ></span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                The Medha Scholarship Test consists of
+                                multiple-choice and subjective questions testing
+                                students' knowledge in core subjects.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>What are the scholarship benefits?</h3>
+                            <span class="faq-toggle"
+                                ><i class="fas fa-plus"></i
+                            ></span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                Top performers can receive scholarships covering
+                                100%, 50%, or 25% of tuition and transport fees.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>When will the results be announced?</h3>
+                            <span class="faq-toggle"
+                                ><i class="fas fa-plus"></i
+                            ></span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                Results will be announced within two weeks of
+                                the examination date. Notifications will be sent
+                                via email and SMS.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>How do I prepare for the scholarship test?</h3>
+                            <span class="faq-toggle"
+                                ><i class="fas fa-plus"></i
+                            ></span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                Focus on your Class X syllabus and fundamental
+                                concepts. A detailed syllabus is available in
+                                the downloadable brochure.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact & Support -->
+        <section class="contact">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Contact &amp; Support</h2>
+                </div>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <h3>Helpline Numbers</h3>
+                        <p>
+                            <a href="tel:8090254223">8090254223</a> /
+                            <a href="tel:8810794099">8810794099</a>
+                        </p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-globe"></i>
+                        <h3>Website</h3>
+                        <p>
+                            <a
+                                href="http://www.sunbeammughalsarai.com"
+                                target="_blank"
+                                >www.sunbeammughalsarai.com</a
+                            >
+                        </p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p>
+                            <a
+                                
+                                ><span
+                                    
+                                    > info@sunbeammughalsarai.com</span
+                                ></a
+                            >
+                        </p>
+                    </div>
+                </div>
+                <div class="social-media">
+                    <a
+                        href="https://www.facebook.com/sunbeammgs1"
+                        class="social-icon"
+                        ><i class="fab fa-facebook"></i
+                    ></a>
+                    <a
+                        href="https://www.instagram.com/sunbeamschoolmughalsarai/"
+                        class="social-icon"
+                        ><i class="fab fa-instagram"></i
+                    ></a>
+                    <a href="https://x.com/sunbeammgs" class="social-icon"
+                        ><i class="fab fa-twitter"></i
+                    ></a>
+                    <a
+                        href="https://www.youtube.com/@Sunbeammgs1"
+                        class="social-icon"
+                        ><i class="fab fa-youtube"></i
+                    ></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div class="container">
+                <div class="footer-links">
+                    <a href="#">Admission Process</a>
+                    <a href="#">School Website</a>
+                    <a href="#">Terms &amp; Conditions</a>
+                    <a href="#">Privacy Policy</a>
+                </div>
+                <div class="copyright">
+                    <p>
+                        &copy; 2025 Sunbeam School Mughalsarai. All Rights
+                        Reserved.
+                    </p>
+                </div>
+            </div>
+        </footer>
+
+        <script
+            data-cfasync="false"
+            src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+        ></script>
+        <script src="script.js"></script>
+    </body>
+</html>
